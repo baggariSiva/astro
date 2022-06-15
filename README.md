@@ -2,11 +2,24 @@
 
 <a href="https://dash.elest.io/deploy?source=cicd&social=Github&url=https://github.com/elestio-examples/astro"><img src="public\deploy-on-elestio.png" alt="Deploy on Elest.io" width="180px" /></a>
 
-# Astro Starter Kit: Blog
+
+# Astro Starter Kit: Blog!
+
+This is a very basic example of a simple Brunch app.
+
+Clone this [elestio-examples/astro](https://github.com/elestio-examples/astro) 
 
 ```
-npm init astro -- --template blog
+git clone https://github.com/elestio-examples/astro.git
 ```
+Change into project directory.
+
+```
+npm install
+npm run start
+```
+
+This starts your app in development mode, make the changes and push.
 
 <img src="public\screenshot.png" alt="screenshot of the example app" width="100%" />
 
