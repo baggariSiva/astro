@@ -2,26 +2,37 @@
 
 <a href="https://dash.elest.io/deploy?source=cicd&social=Github&url=https://github.com/elestio-examples/astro"><img src="public\deploy-on-elestio.png" alt="Deploy on Elest.io" width="180px" /></a>
 
+This is a very basic example of a simple Astro App.
 
-# Astro Starter Kit: Blog!
+<img src="public\screenshot.png" alt="screenshot of the Astro app" width="100%" />
 
-This is a very basic example of a simple Astro app.
+# Steps to clone this repository and run locally.
 
-Clone this [elestio-examples/astro](https://github.com/elestio-examples/astro) 
+
+### Step 1: Clone this repository.
 
 ```
 git clone https://github.com/elestio-examples/astro.git
 ```
-Change into project directory.
+### Step 2: Go to project folder.
+
+```
+cd astro
+```
+
+### Step 3: Install dependencies.
 
 ```
 npm install
+```
+
+### Step 4: Run your app in dev mode.
+
+```
 npm run start
 ```
 
-This starts your app in development mode, make the changes and push.
-
-<img src="public\screenshot.png" alt="screenshot of the example app" width="100%" />
+### Step 5: Make some changes and push.
 
 
 ## CI/CD on Elestio
@@ -49,7 +60,7 @@ But for this Astro Template, you can choose GitHub as your deployment method.
 Select Clone in step at step Git Repository and select Astro template for creating a repository in your git account after that authenticate with Git by clicking on
 Continue with Github button and authorize elestio to access git then you can rename you repository name if you want.
 
-Else If you forked the repo then you can click on the Continue with GitHub button and authorize elestio to access the git repo then you can select the ember-app repo otherwise you can directly insert a git repo URL to deploy the Ember App.
+Else If you forked the repo then you can click on the Continue with GitHub button and authorize elestio to access the git repo then you can select the Astro repo otherwise you can directly insert a git repo URL to deploy the Astro application.
 
 ### Step 4: Configuration
 
