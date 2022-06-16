@@ -5,7 +5,7 @@
 
 # Astro Starter Kit: Blog!
 
-This is a very basic example of a simple Brunch app.
+This is a very basic example of a simple Astro app.
 
 Clone this [elestio-examples/astro](https://github.com/elestio-examples/astro) 
 
